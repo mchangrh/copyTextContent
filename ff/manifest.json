@@ -1,0 +1,15 @@
+{
+  "name": "Copy Text Content",
+  "description": "Copy text content of selected element",
+  "version": "0.1",
+  "manifest_version": 3,
+  "permissions": [
+    "menus",
+    "clipboardWrite",
+    "activeTab",
+    "scripting"
+  ],
+  "background": {
+    "scripts": [ "src/background.js" ]
+  }
+}

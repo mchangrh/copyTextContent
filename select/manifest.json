@@ -1,0 +1,20 @@
+{
+  "name": "Copy Text Content",
+  "description": "Copy text content of selected element",
+  "version": "0.1",
+  "manifest_version": 3,
+  "permissions": [
+    "contextMenus",
+    "clipboardWrite",
+    "scripting",
+    "activeTab"
+  ],
+  "icons": {
+    "16": "icons/16.png",
+    "48": "icons/48.png",
+    "128": "icons/128.png"
+  },
+  "background": {
+    "service_worker": "src/background.js"
+  }
+}
