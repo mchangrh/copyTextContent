@@ -1,17 +1,17 @@
 module.exports = function (grunt) {
   grunt.initConfig({
     compress: {
-      chromeElem: {
-        options: { archive: 'dist/chrome-elem.zip' },
+      chrome: {
+        options: { archive: 'dist/chrome.zip' },
         files: [
-          { expand: true, cwd: 'elem', src: ['**'], dest: '/'},
+          { expand: true, cwd: 'chrome', src: ['**'], dest: '/'},
           { src: ['icons/**'], dest: '/' }
         ]
       },
-      chromeSelect: {
-        options: { archive: 'dist/chrome-select.zip' },
+      chromeLite: {
+        options: { archive: 'dist/chrome-lite.zip' },
         files: [
-          { expand: true, cwd: 'select', src: ['**/*'], dest: '/'},
+          { expand: true, cwd: 'chrome-lite', src: ['**/*'], dest: '/'},
           { src: ['icons/**'], dest: '/' }
         ]
       },
