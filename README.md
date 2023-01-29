@@ -1,6 +1,8 @@
 # Copy Text Content
 Copies selected element's [textContent](https://developer.mozilla.org/en-US/docs/Web/API/Node/textContent#differences_from_innertext)
 
+[Firefox](https://addons.mozilla.org/en-US/firefox/addon/copy-text-content/) | [Chrome](https://chrome.google.com/webstore/detail/ppcnphojkmhbhplnbhkncdbjgcjfndij) | [Chrome (Lite)](https://chrome.google.com/webstore/detail/dadjfgjnfmnmhjcddbbebhppneebclpa)
+
 ## Why not just Ctrl + C?
 
 Because it's inconsistent between browsers
