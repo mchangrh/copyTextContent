@@ -18,13 +18,13 @@ module.exports = function (grunt) {
       firefox: {
         options: { archive: 'dist/firefox.zip' },
         files: [
-          { expand: true, cwd: 'ff', src: ['**/*'], dest: '/'},
+          { expand: true, cwd: 'firefox', src: ['**/*'], dest: '/'},
           { src: ['icons/**'], dest: '/' }
         ]
       }
     }
-  });
+  })
  
-  grunt.loadNpmTasks('grunt-contrib-compress');
+  grunt.loadNpmTasks('grunt-contrib-compress')
   grunt.registerTask("default", ["compress"])
-};
+}

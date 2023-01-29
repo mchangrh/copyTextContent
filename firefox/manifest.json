@@ -1,8 +1,13 @@
 {
   "name": "Copy Text Content",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "copyText@mchang.xyz"
+    }
+  },
   "description": "Copy text content of selected element",
   "version": "0.1",
-  "manifest_version": 3,
+  "manifest_version": 2,
   "permissions": [
     "menus",
     "clipboardWrite",
