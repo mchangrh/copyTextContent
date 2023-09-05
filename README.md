@@ -7,6 +7,7 @@ Copies selected element's [textContent](https://developer.mozilla.org/docs/Web/A
 
 Because it's inconsistent between browsers
  - Chrome will observe `text-transform` but FF will not
+ - It's difficult to select text in links without enough whitepsaces
  - Some sites will hijack and/ or prevent copy events - this might get around that?
 
 [Demo](https://mchangrh.github.io/copyTextContent/)

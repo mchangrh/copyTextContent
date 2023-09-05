@@ -14,7 +14,7 @@ browser.menus.onClicked.addListener((info, tab) => {
     func: (args) => {
       const target = browser.menus.getTargetElement(args)
       if (!target) return // return if no target
-      const text = target?.textContent // get textContent
+      const text = target?.textContent?.trim() // get textContent
       if (!text) return // return if no text to copy
       navigator.clipboard.writeText(text) // copy text
     }

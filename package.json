@@ -1,9 +1,10 @@
 {
   "name": "copy-text-content",
-  "version": "0.1",
+  "version": "0.2",
   "description": "copies text content from element",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "grunt"
   },
   "repository": {
     "type": "git",
@@ -17,7 +18,7 @@
   "homepage": "https://github.com/mchangrh/copyTextContent#readme",
   "private": true,
   "devDependencies": {
-    "grunt": "^1.4.1",
+    "grunt": "^1.6.1",
     "grunt-contrib-compress": "^2.0.0"
   }
 }

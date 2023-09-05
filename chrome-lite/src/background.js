@@ -13,7 +13,7 @@ function onClickedListener(info, tab) {
     func: () => {
       const target = document.getSelection()?.anchorNode
       if (!target) return // return if no target
-      const text = target?.textContent // get textContent
+      const text = target?.textContent?.trim() // get textContent
       if (!text) return // return if no text to copy
       navigator.clipboard.writeText(text) // copy text
     }
